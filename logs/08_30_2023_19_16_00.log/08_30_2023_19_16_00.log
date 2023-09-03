@@ -1,0 +1,18 @@
+[2023-08-30 19:16:07,263] 187 werkzeug -WARNING -  * Debugger is active!
+[2023-08-30 19:16:07,279] 187 werkzeug -INFO -  * Debugger PIN: 658-853-333
+[2023-08-30 19:16:10,507] 107 root -INFO - Dataframe Gathered
+[2023-08-30 19:16:10,987] 26 root -INFO - Exception occured in prediction
+[2023-08-30 19:16:11,091] 187 werkzeug -INFO - 127.0.0.1 - - [30/Aug/2023 19:16:11] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[2023-08-30 19:16:11,155] 187 werkzeug -INFO - 127.0.0.1 - - [30/Aug/2023 19:16:11] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-30 19:16:11,155] 187 werkzeug -INFO - 127.0.0.1 - - [30/Aug/2023 19:16:11] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-30 19:16:11,227] 187 werkzeug -INFO - 127.0.0.1 - - [30/Aug/2023 19:16:11] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-30 19:16:11,251] 187 werkzeug -INFO - 127.0.0.1 - - [30/Aug/2023 19:16:11] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-30 19:17:03,422] 107 root -INFO - Dataframe Gathered
+[2023-08-30 19:17:03,446] 26 root -INFO - Exception occured in prediction
+[2023-08-30 19:17:03,509] 187 werkzeug -INFO - 127.0.0.1 - - [30/Aug/2023 19:17:03] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[2023-08-30 19:17:03,549] 187 werkzeug -INFO - 127.0.0.1 - - [30/Aug/2023 19:17:03] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-30 19:17:03,567] 187 werkzeug -INFO - 127.0.0.1 - - [30/Aug/2023 19:17:03] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-30 19:17:03,614] 187 werkzeug -INFO - 127.0.0.1 - - [30/Aug/2023 19:17:03] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-30 19:17:03,646] 187 werkzeug -INFO - 127.0.0.1 - - [30/Aug/2023 19:17:03] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-30 19:18:47,356] 187 werkzeug -INFO - 127.0.0.1 - - [30/Aug/2023 19:18:47] "GET /predict HTTP/1.1" 200 -
+[2023-08-30 19:18:47,388] 187 werkzeug -INFO - 127.0.0.1 - - [30/Aug/2023 19:18:47] "[33mGET /down-arrow.png HTTP/1.1[0m" 404 -

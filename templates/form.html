@@ -1,0 +1,223 @@
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>Credit Card Default Detection</title>
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                    background-image: url('https://png.pngtree.com/png-clipart/20200910/ourlarge/pngtree-credit-card-payment-illustration-creative-png-image_2342689.jpg');
+                    /* background-size: cover; */
+                    /* background-position: center; */
+                    margin: 0;
+                    background-size: 450px;
+                    padding: 0;
+                }
+                .form-container {
+                    max-width: 400px;
+                    margin: 0 auto;
+                    padding: 20px;
+                    background-color: rgba(255, 255, 255, 0.9);
+                    border-radius: 10px;
+                    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+                }
+                .form-header {
+                    text-align: center;
+                    margin-bottom: 20px;
+                }
+                .form-header h1 {
+                    color: #007BFF;
+                }
+                .form-header p {
+                    color: #007BFF;
+                }
+                .form-group {
+                    margin-bottom: 20px;
+                    max-width: 380px;
+                }
+                label {
+                    font-weight: bold;
+                    display: block;
+                    color: #72b3f9;
+                }
+                input[type="text"],
+                select {
+                    width: 100%;
+                    padding: 10px;
+                    border: 1px solid #ccc;
+                    border-radius: 5px;
+                    font-size: 14px;
+                    background-color: #f9f9f9;
+                }
+                /* select {
+                    appearance: none;
+                    background: transparent;
+                    padding-right: 25px;
+                    background-image: url('down-arrow.png');
+                    background-position: right center;
+                    background-repeat: no-repeat;
+                } */
+                input[type="submit"] {
+                    background-color: #007BFF;
+                    color: white;
+                    padding: 10px 20px;
+                    border: none;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    font-size: 16px;
+                    transition: background-color 0.3s ease;
+                }
+                input[type="submit"]:hover {
+                    background-color: #0056b3;
+                }
+                .result {
+                    margin-top: 20px;
+                    font-size: 18px;
+                    text-align: center;
+                    color: #007BFF;
+                }
+            </style>
+        </head>
+        <body>
+            <div class="form-container">
+                <div class="form-header">
+                    <h1>Credit Card Default Prediction</h1>
+                    <p>Get a prediction for credit card default.</p>
+                </div>
+                <form action="{{ url_for('predict_datapoint') }}" method="POST">
+                    <div class="form-group">
+                        <label for="LIMIT_BAL">Credit Limit (Amount of given credit in NT dollars (includes individual and family/supplementary credit)):</label>
+                        <input type="text" id="LIMIT_BAL" name="LIMIT_BAL" placeholder="Enter credit limit in dollar">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="SEX">Sex:</label>
+                        <select id="SEX" name="SEX">
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="EDUCATION">Education:</label>
+                        <select id="EDUCATION" name="EDUCATION">
+                            <option value="graduate school">Graduate School</option>
+                            <option value="university">University</option>
+                            <option value="high school">High School</option>
+                            <option value="Others">Others</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="MARRIAGE">Marriage:</label>
+                        <select id="MARRIAGE" name="MARRIAGE">
+                            <option value="Married">Married</option>
+                            <option value="Single">Single</option>
+                            <option value="Others">Others</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="AGE">Age:</label>
+                        <input type="text" id="AGE" name="AGE" placeholder="Enter age in years">
+                    </div>
+                    
+                    <div class="form-group">
+                        <h4>Repayment Status</h4>
+                        <p>(0=No delay in payment, 1=payment delay for one month, 2=payment delay for two months, ... 8=payment delay for eight months, 9=payment delay for nine months and above)</p>
+                        <label for="PAY_1">Payment Status (April):</label>
+                        <input type="text" id="PAY_1" name="PAY_1" placeholder="Enter payment status of April">
+                    </div>
+        
+                    <div class="form-group">
+                        <label for="PAY_2">Payment Status (May):</label>
+                        <input type="text" id="PAY_2" name="PAY_2" placeholder="Enter payment status of May">
+                    </div>
+        
+                    <div class="form-group">
+                        <label for="PAY_3">Payment Status (June):</label>
+                        <input type="text" id="PAY_3" name="PAY_3" placeholder="Enter payment status of June">
+                    </div>
+        
+                    <div class="form-group">
+                        <label for="PAY_4">Payment Status (July):</label>
+                        <input type="text" id="PAY_4" name="PAY_4" placeholder="Enter payment status of July ">
+                    </div>
+        
+                    <div class="form-group">
+                        <label for="PAY_5">Payment Status (August):</label>
+                        <input type="text" id="PAY_5" name="PAY_5" placeholder="Enter payment status of August">
+                    </div>
+        
+                    <div class="form-group">
+                        <label for="PAY_6">Payment Status (September):</label>
+                        <input type="text" id="PAY_6" name="PAY_6" placeholder="Enter payment status of September">
+                    </div>
+        
+                    <div class="form-group">
+                        <h4>Bill Amount: Amount of bill statement (in dollor)</h4>
+                        <label for="BILL_AMT1">Bill Amount (April):</label>
+                        <input type="text" id="BILL_AMT1" name="BILL_AMT1" placeholder="Enter bill amount of April ">
+                    </div>
+        
+                    <div class="form-group">
+                        <label for="BILL_AMT2">Bill Amount (May):</label>
+                        <input type="text" id="BILL_AMT2" name="BILL_AMT2" placeholder="Enter bill amount of May">
+                    </div>
+        
+                    <div class="form-group">
+                        <label for="BILL_AMT3">Bill Amount (June):</label>
+                        <input type="text" id="BILL_AMT3" name="BILL_AMT3" placeholder="Enter bill amount of June">
+                    </div>
+        
+                    <div class="form-group">
+                        <label for="BILL_AMT4">Bill Amount (July):</label>
+                        <input type="text" id="BILL_AMT4" name="BILL_AMT4" placeholder="Enter bill amount of July">
+                    </div>
+        
+                    <div class="form-group">
+                        <label for="BILL_AMT5">Bill Amount (August):</label>
+                        <input type="text" id="BILL_AMT5" name="BILL_AMT5" placeholder="Enter bill amount of August">
+                    </div>
+        
+                    <div class="form-group">
+                        <label for="BILL_AMT6">Bill Amount (September):</label>
+                        <input type="text" id="BILL_AMT6" name="BILL_AMT6" placeholder="Enter bill amount of September">
+                    </div>
+                    
+                    <div class="form-group">
+                        <h4>Previous Payments: Amount of previous payments(in dollor)</h4>
+                        <label for="PAY_AMT1">Payment Amount (April):</label>
+                        <input type="text" id="PAY_AMT1" name="PAY_AMT1" placeholder="Enter payment amount of April">
+                    </div>
+        
+                    <div class="form-group">
+                        <label for="PAY_AMT2">Payment Amount (May):</label>
+                        <input type="text" id="PAY_AMT2" name="PAY_AMT2" placeholder="Enter payment amount of May">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="PAY_AMT3">Payment Amount (June):</label>
+                        <input type="text" id="PAY_AMT3" name="PAY_AMT3" placeholder="Enter payment amount of June">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="PAY_AMT4">Payment Amount (July):</label>
+                        <input type="text" id="PAY_AMT4" name="PAY_AMT4" placeholder="Enter payment amount of July)">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="PAY_AMT5">Payment Amount (August):</label>
+                        <input type="text" id="PAY_AMT5" name="PAY_AMT5" placeholder="Enter payment amount of August">
+                    </div>
+        
+                    <div class="form-group">
+                        <label for="PAY_AMT6">Payment Amount (September):</label>
+                        <input type="text" id="PAY_AMT6" name="PAY_AMT6" placeholder="Enter payment amount of September">
+                    </div>
+                    <div style="clear:both;"></div>
+                    <input type="submit" value="Predict">
+                </form>
+            </div>
+        </body>
+        </html>
+        

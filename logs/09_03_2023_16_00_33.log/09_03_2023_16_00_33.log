@@ -1,0 +1,190 @@
+[2023-09-03 16:00:37,661] 187 werkzeug -WARNING -  * Debugger is active!
+[2023-09-03 16:00:37,676] 187 werkzeug -INFO -  * Debugger PIN: 658-853-333
+[2023-09-03 16:00:46,386] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:00:46] "GET /predict HTTP/1.1" 200 -
+[2023-09-03 16:00:46,445] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:00:46] "[33mGET /down-arrow.png HTTP/1.1[0m" 404 -
+[2023-09-03 16:01:22,649] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:01:22] "GET /predict HTTP/1.1" 200 -
+[2023-09-03 16:01:22,678] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:01:22] "[33mGET /down-arrow.png HTTP/1.1[0m" 404 -
+[2023-09-03 16:01:46,549] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:01:46] "GET /predict HTTP/1.1" 200 -
+[2023-09-03 16:01:46,571] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:01:46] "[33mGET /down-arrow.png HTTP/1.1[0m" 404 -
+[2023-09-03 16:02:06,514] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:02:06] "GET /predict HTTP/1.1" 200 -
+[2023-09-03 16:02:06,534] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:02:06] "[33mGET /down-arrow.png HTTP/1.1[0m" 404 -
+[2023-09-03 16:02:21,866] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:02:21] "GET /predict HTTP/1.1" 200 -
+[2023-09-03 16:02:21,882] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:02:21] "[33mGET /down-arrow.png HTTP/1.1[0m" 404 -
+[2023-09-03 16:02:43,977] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:02:43] "GET /predict HTTP/1.1" 200 -
+[2023-09-03 16:02:43,995] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:02:43] "[33mGET /down-arrow.png HTTP/1.1[0m" 404 -
+[2023-09-03 16:03:00,093] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:03:00] "GET /predict HTTP/1.1" 200 -
+[2023-09-03 16:03:00,114] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:03:00] "[33mGET /down-arrow.png HTTP/1.1[0m" 404 -
+[2023-09-03 16:03:54,758] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:03:54] "GET /predict HTTP/1.1" 200 -
+[2023-09-03 16:03:54,778] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:03:54] "[33mGET /down-arrow.png HTTP/1.1[0m" 404 -
+[2023-09-03 16:05:11,318] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:05:11] "GET /predict HTTP/1.1" 200 -
+[2023-09-03 16:05:11,336] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:05:11] "[33mGET /down-arrow.png HTTP/1.1[0m" 404 -
+[2023-09-03 16:05:27,554] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:05:27] "GET /predict HTTP/1.1" 200 -
+[2023-09-03 16:05:27,573] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:05:27] "[33mGET /down-arrow.png HTTP/1.1[0m" 404 -
+[2023-09-03 16:07:40,682] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:07:40] "GET /predict HTTP/1.1" 200 -
+[2023-09-03 16:07:40,704] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:07:40] "[33mGET /down-arrow.png HTTP/1.1[0m" 404 -
+[2023-09-03 16:08:00,624] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:08:00] "GET /predict HTTP/1.1" 200 -
+[2023-09-03 16:08:00,644] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:08:00] "[33mGET /down-arrow.png HTTP/1.1[0m" 404 -
+[2023-09-03 16:08:21,034] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:08:21] "GET /predict HTTP/1.1" 200 -
+[2023-09-03 16:08:21,053] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:08:21] "[33mGET /down-arrow.png HTTP/1.1[0m" 404 -
+[2023-09-03 16:08:22,406] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:08:22] "GET /predict HTTP/1.1" 200 -
+[2023-09-03 16:08:22,428] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:08:22] "[33mGET /down-arrow.png HTTP/1.1[0m" 404 -
+[2023-09-03 16:08:22,836] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:08:22] "GET /predict HTTP/1.1" 200 -
+[2023-09-03 16:08:22,856] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:08:22] "[33mGET /down-arrow.png HTTP/1.1[0m" 404 -
+[2023-09-03 16:08:23,040] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:08:23] "GET /predict HTTP/1.1" 200 -
+[2023-09-03 16:08:23,059] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:08:23] "[33mGET /down-arrow.png HTTP/1.1[0m" 404 -
+[2023-09-03 16:09:07,726] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:09:07] "GET /predict HTTP/1.1" 200 -
+[2023-09-03 16:09:07,751] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:09:07] "[33mGET /down-arrow.png HTTP/1.1[0m" 404 -
+[2023-09-03 16:09:22,555] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:09:22] "GET /predict HTTP/1.1" 200 -
+[2023-09-03 16:09:22,571] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:09:22] "[33mGET /down-arrow.png HTTP/1.1[0m" 404 -
+[2023-09-03 16:09:37,653] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:09:37] "GET /predict HTTP/1.1" 200 -
+[2023-09-03 16:09:37,670] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:09:37] "[33mGET /down-arrow.png HTTP/1.1[0m" 404 -
+[2023-09-03 16:09:50,501] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:09:50] "GET /predict HTTP/1.1" 200 -
+[2023-09-03 16:09:50,520] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:09:50] "[33mGET /down-arrow.png HTTP/1.1[0m" 404 -
+[2023-09-03 16:10:09,642] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:10:09] "GET /predict HTTP/1.1" 200 -
+[2023-09-03 16:10:09,668] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:10:09] "[33mGET /down-arrow.png HTTP/1.1[0m" 404 -
+[2023-09-03 16:10:33,818] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:10:33] "GET /predict HTTP/1.1" 200 -
+[2023-09-03 16:10:33,833] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:10:33] "[33mGET /down-arrow.png HTTP/1.1[0m" 404 -
+[2023-09-03 16:11:15,387] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:11:15] "GET /predict HTTP/1.1" 200 -
+[2023-09-03 16:11:15,408] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:11:15] "[33mGET /down-arrow.png HTTP/1.1[0m" 404 -
+[2023-09-03 16:11:38,329] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:11:38] "GET /predict HTTP/1.1" 200 -
+[2023-09-03 16:11:38,347] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:11:38] "[33mGET /down-arrow.png HTTP/1.1[0m" 404 -
+[2023-09-03 16:12:11,201] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:12:11] "GET /predict HTTP/1.1" 200 -
+[2023-09-03 16:12:11,217] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:12:11] "[33mGET /down-arrow.png HTTP/1.1[0m" 404 -
+[2023-09-03 16:12:30,026] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:12:30] "GET /predict HTTP/1.1" 200 -
+[2023-09-03 16:12:30,044] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:12:30] "[33mGET /down-arrow.png HTTP/1.1[0m" 404 -
+[2023-09-03 16:12:48,940] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:12:48] "GET /predict HTTP/1.1" 200 -
+[2023-09-03 16:12:48,958] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:12:48] "[33mGET /down-arrow.png HTTP/1.1[0m" 404 -
+[2023-09-03 16:13:14,326] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:13:14] "GET /predict HTTP/1.1" 200 -
+[2023-09-03 16:13:14,344] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:13:14] "[33mGET /down-arrow.png HTTP/1.1[0m" 404 -
+[2023-09-03 16:14:46,693] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:14:46] "GET /predict HTTP/1.1" 200 -
+[2023-09-03 16:14:46,727] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:14:46] "[33mGET /down-arrow.png HTTP/1.1[0m" 404 -
+[2023-09-03 16:15:34,503] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:15:34] "GET /predict HTTP/1.1" 200 -
+[2023-09-03 16:15:34,525] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:15:34] "[33mGET /down-arrow.png HTTP/1.1[0m" 404 -
+[2023-09-03 16:16:45,236] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:16:45] "GET /predict HTTP/1.1" 200 -
+[2023-09-03 16:16:45,255] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:16:45] "[33mGET /down-arrow.png HTTP/1.1[0m" 404 -
+[2023-09-03 16:18:47,265] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:18:47] "GET / HTTP/1.1" 200 -
+[2023-09-03 16:19:11,047] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:19:11] "GET / HTTP/1.1" 200 -
+[2023-09-03 16:19:23,916] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:19:23] "GET / HTTP/1.1" 200 -
+[2023-09-03 16:19:40,501] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:19:40] "GET / HTTP/1.1" 200 -
+[2023-09-03 16:19:59,287] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:19:59] "GET / HTTP/1.1" 200 -
+[2023-09-03 16:20:17,912] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:20:17] "GET / HTTP/1.1" 200 -
+[2023-09-03 16:20:39,293] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:20:39] "GET / HTTP/1.1" 200 -
+[2023-09-03 16:20:42,364] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:20:42] "GET / HTTP/1.1" 200 -
+[2023-09-03 16:21:25,074] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:21:25] "GET / HTTP/1.1" 200 -
+[2023-09-03 16:21:49,958] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:21:49] "GET / HTTP/1.1" 200 -
+[2023-09-03 16:22:32,822] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:22:32] "GET / HTTP/1.1" 200 -
+[2023-09-03 16:22:54,055] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:22:54] "GET / HTTP/1.1" 200 -
+[2023-09-03 16:23:05,518] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:23:05] "GET / HTTP/1.1" 200 -
+[2023-09-03 16:23:17,322] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:23:17] "GET / HTTP/1.1" 200 -
+[2023-09-03 16:23:25,099] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:23:25] "GET /predict HTTP/1.1" 200 -
+[2023-09-03 16:23:25,131] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:23:25] "[33mGET /down-arrow.png HTTP/1.1[0m" 404 -
+[2023-09-03 16:23:35,057] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:23:35] "GET /predict HTTP/1.1" 200 -
+[2023-09-03 16:23:35,086] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:23:35] "[33mGET /down-arrow.png HTTP/1.1[0m" 404 -
+[2023-09-03 16:24:32,733] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:24:32] "GET /predict HTTP/1.1" 200 -
+[2023-09-03 16:24:32,751] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:24:32] "[33mGET /down-arrow.png HTTP/1.1[0m" 404 -
+[2023-09-03 16:24:35,778] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:24:35] "GET / HTTP/1.1" 200 -
+[2023-09-03 16:25:24,827] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:25:24] "GET / HTTP/1.1" 200 -
+[2023-09-03 16:26:01,225] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:26:01] "GET / HTTP/1.1" 200 -
+[2023-09-03 16:26:27,610] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:26:27] "GET / HTTP/1.1" 200 -
+[2023-09-03 16:27:29,304] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:27:29] "GET / HTTP/1.1" 200 -
+[2023-09-03 16:27:45,962] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:27:45] "GET / HTTP/1.1" 200 -
+[2023-09-03 16:28:25,484] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:28:25] "GET / HTTP/1.1" 200 -
+[2023-09-03 16:28:39,931] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:28:39] "GET / HTTP/1.1" 200 -
+[2023-09-03 16:28:54,130] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:28:54] "GET / HTTP/1.1" 200 -
+[2023-09-03 16:29:06,229] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:29:06] "GET / HTTP/1.1" 200 -
+[2023-09-03 16:29:34,344] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:29:34] "GET / HTTP/1.1" 200 -
+[2023-09-03 16:29:51,448] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:29:51] "GET / HTTP/1.1" 200 -
+[2023-09-03 16:30:04,772] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:30:04] "GET / HTTP/1.1" 200 -
+[2023-09-03 16:30:21,675] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:30:21] "GET / HTTP/1.1" 200 -
+[2023-09-03 16:30:34,360] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:30:34] "GET / HTTP/1.1" 200 -
+[2023-09-03 16:30:48,555] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:30:48] "GET / HTTP/1.1" 200 -
+[2023-09-03 16:31:03,540] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:31:03] "GET / HTTP/1.1" 200 -
+[2023-09-03 16:31:16,136] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:31:16] "GET / HTTP/1.1" 200 -
+[2023-09-03 16:31:29,585] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:31:29] "GET / HTTP/1.1" 200 -
+[2023-09-03 16:32:25,762] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:32:25] "GET / HTTP/1.1" 200 -
+[2023-09-03 16:32:39,687] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:32:39] "GET /predict HTTP/1.1" 200 -
+[2023-09-03 16:32:39,718] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:32:39] "[33mGET /down-arrow.png HTTP/1.1[0m" 404 -
+[2023-09-03 16:33:51,038] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:33:51] "GET / HTTP/1.1" 200 -
+[2023-09-03 16:34:03,217] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:34:03] "GET / HTTP/1.1" 200 -
+[2023-09-03 16:34:24,380] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:34:24] "GET / HTTP/1.1" 200 -
+[2023-09-03 16:34:39,645] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:34:39] "GET /predict HTTP/1.1" 200 -
+[2023-09-03 16:34:39,676] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:34:39] "[33mGET /down-arrow.png HTTP/1.1[0m" 404 -
+[2023-09-03 16:35:33,874] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:35:33] "GET /predict HTTP/1.1" 200 -
+[2023-09-03 16:36:56,140] 107 root -INFO - Dataframe Gathered
+[2023-09-03 16:36:58,873] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:36:58] "POST /predict HTTP/1.1" 200 -
+[2023-09-03 16:39:15,387] 107 root -INFO - Dataframe Gathered
+[2023-09-03 16:39:15,613] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:39:15] "POST /predict HTTP/1.1" 200 -
+[2023-09-03 16:41:06,622] 107 root -INFO - Dataframe Gathered
+[2023-09-03 16:41:06,768] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:41:06] "POST /predict HTTP/1.1" 200 -
+[2023-09-03 16:41:23,536] 107 root -INFO - Dataframe Gathered
+[2023-09-03 16:41:23,558] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:41:23] "POST /predict HTTP/1.1" 200 -
+[2023-09-03 16:42:01,884] 107 root -INFO - Dataframe Gathered
+[2023-09-03 16:42:01,916] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:42:01] "POST /predict HTTP/1.1" 200 -
+[2023-09-03 16:42:49,976] 107 root -INFO - Dataframe Gathered
+[2023-09-03 16:42:49,998] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:42:49] "POST /predict HTTP/1.1" 200 -
+[2023-09-03 16:43:06,659] 107 root -INFO - Dataframe Gathered
+[2023-09-03 16:43:06,690] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:43:06] "POST /predict HTTP/1.1" 200 -
+[2023-09-03 16:43:20,297] 107 root -INFO - Dataframe Gathered
+[2023-09-03 16:43:20,328] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:43:20] "POST /predict HTTP/1.1" 200 -
+[2023-09-03 16:43:40,200] 107 root -INFO - Dataframe Gathered
+[2023-09-03 16:43:40,216] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:43:40] "POST /predict HTTP/1.1" 200 -
+[2023-09-03 16:44:12,099] 107 root -INFO - Dataframe Gathered
+[2023-09-03 16:44:12,137] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:44:12] "POST /predict HTTP/1.1" 200 -
+[2023-09-03 16:44:42,044] 107 root -INFO - Dataframe Gathered
+[2023-09-03 16:44:42,075] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:44:42] "POST /predict HTTP/1.1" 200 -
+[2023-09-03 16:45:00,582] 107 root -INFO - Dataframe Gathered
+[2023-09-03 16:45:00,609] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:45:00] "POST /predict HTTP/1.1" 200 -
+[2023-09-03 16:45:30,613] 107 root -INFO - Dataframe Gathered
+[2023-09-03 16:45:30,661] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:45:30] "POST /predict HTTP/1.1" 200 -
+[2023-09-03 16:46:01,843] 107 root -INFO - Dataframe Gathered
+[2023-09-03 16:46:01,874] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:46:01] "POST /predict HTTP/1.1" 200 -
+[2023-09-03 16:46:38,201] 107 root -INFO - Dataframe Gathered
+[2023-09-03 16:46:38,239] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:46:38] "POST /predict HTTP/1.1" 200 -
+[2023-09-03 16:47:02,816] 107 root -INFO - Dataframe Gathered
+[2023-09-03 16:47:02,847] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:47:02] "POST /predict HTTP/1.1" 200 -
+[2023-09-03 16:47:30,010] 107 root -INFO - Dataframe Gathered
+[2023-09-03 16:47:30,042] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:47:30] "POST /predict HTTP/1.1" 200 -
+[2023-09-03 16:47:50,693] 107 root -INFO - Dataframe Gathered
+[2023-09-03 16:47:50,717] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:47:50] "POST /predict HTTP/1.1" 200 -
+[2023-09-03 16:48:45,079] 107 root -INFO - Dataframe Gathered
+[2023-09-03 16:48:45,117] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:48:45] "POST /predict HTTP/1.1" 200 -
+[2023-09-03 16:48:45,136] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:48:45] "GET /predict HTTP/1.1" 200 -
+[2023-09-03 16:50:48,431] 107 root -INFO - Dataframe Gathered
+[2023-09-03 16:50:48,571] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:50:48] "POST /predict HTTP/1.1" 200 -
+[2023-09-03 16:52:22,559] 107 root -INFO - Dataframe Gathered
+[2023-09-03 16:52:22,646] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:52:22] "POST /predict HTTP/1.1" 200 -
+[2023-09-03 16:53:05,112] 107 root -INFO - Dataframe Gathered
+[2023-09-03 16:53:05,157] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:53:05] "POST /predict HTTP/1.1" 200 -
+[2023-09-03 16:53:44,726] 107 root -INFO - Dataframe Gathered
+[2023-09-03 16:53:44,767] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:53:44] "POST /predict HTTP/1.1" 200 -
+[2023-09-03 16:53:59,742] 107 root -INFO - Dataframe Gathered
+[2023-09-03 16:53:59,779] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:53:59] "POST /predict HTTP/1.1" 200 -
+[2023-09-03 16:54:02,858] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:54:02] "GET /predict HTTP/1.1" 200 -
+[2023-09-03 16:54:26,488] 107 root -INFO - Dataframe Gathered
+[2023-09-03 16:54:26,512] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:54:26] "POST /predict HTTP/1.1" 200 -
+[2023-09-03 16:54:47,723] 107 root -INFO - Dataframe Gathered
+[2023-09-03 16:54:47,765] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:54:47] "POST /predict HTTP/1.1" 200 -
+[2023-09-03 16:55:03,188] 107 root -INFO - Dataframe Gathered
+[2023-09-03 16:55:03,229] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:55:03] "POST /predict HTTP/1.1" 200 -
+[2023-09-03 16:55:37,536] 107 root -INFO - Dataframe Gathered
+[2023-09-03 16:55:37,569] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:55:37] "POST /predict HTTP/1.1" 200 -
+[2023-09-03 16:55:50,384] 107 root -INFO - Dataframe Gathered
+[2023-09-03 16:55:50,405] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:55:50] "POST /predict HTTP/1.1" 200 -
+[2023-09-03 16:56:29,650] 107 root -INFO - Dataframe Gathered
+[2023-09-03 16:56:29,689] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:56:29] "POST /predict HTTP/1.1" 200 -
+[2023-09-03 16:56:57,616] 107 root -INFO - Dataframe Gathered
+[2023-09-03 16:56:57,656] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:56:57] "POST /predict HTTP/1.1" 200 -
+[2023-09-03 16:57:01,614] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:57:01] "GET /predict HTTP/1.1" 200 -
+[2023-09-03 16:57:05,392] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:57:05] "GET /predict HTTP/1.1" 200 -
+[2023-09-03 16:58:02,936] 107 root -INFO - Dataframe Gathered
+[2023-09-03 16:58:02,955] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:58:02] "POST /predict HTTP/1.1" 200 -
+[2023-09-03 16:58:10,103] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:58:10] "GET /predict HTTP/1.1" 200 -
+[2023-09-03 16:58:19,690] 107 root -INFO - Dataframe Gathered
+[2023-09-03 16:58:19,870] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:58:19] "POST /predict HTTP/1.1" 200 -
+[2023-09-03 16:58:24,673] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 16:58:24] "GET /predict HTTP/1.1" 200 -
+[2023-09-03 17:02:43,412] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 17:02:43] "GET /predict HTTP/1.1" 200 -
+[2023-09-03 17:03:50,369] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 17:03:50] "GET /predict HTTP/1.1" 200 -
+[2023-09-03 17:03:50,392] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 17:03:50] "GET /predict HTTP/1.1" 200 -
+[2023-09-03 17:04:17,895] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 17:04:17] "GET /predict HTTP/1.1" 200 -
+[2023-09-03 17:06:33,257] 107 root -INFO - Dataframe Gathered
+[2023-09-03 17:06:33,498] 187 werkzeug -INFO - 127.0.0.1 - - [03/Sep/2023 17:06:33] "POST /predict HTTP/1.1" 200 -

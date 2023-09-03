@@ -1,0 +1,31 @@
+[2023-08-31 00:32:38,165] 187 werkzeug -WARNING -  * Debugger is active!
+[2023-08-31 00:32:38,196] 187 werkzeug -INFO -  * Debugger PIN: 658-853-333
+[2023-08-31 00:33:52,810] 107 root -INFO - Dataframe Gathered
+[2023-08-31 00:33:53,879] 187 werkzeug -INFO - 127.0.0.1 - - [31/Aug/2023 00:33:53] "POST /predict HTTP/1.1" 200 -
+[2023-08-31 00:34:28,020] 107 root -INFO - Dataframe Gathered
+[2023-08-31 00:34:28,054] 187 werkzeug -INFO - 127.0.0.1 - - [31/Aug/2023 00:34:28] "POST /predict HTTP/1.1" 200 -
+[2023-08-31 00:35:05,248] 107 root -INFO - Dataframe Gathered
+[2023-08-31 00:35:05,298] 187 werkzeug -INFO - 127.0.0.1 - - [31/Aug/2023 00:35:05] "POST /predict HTTP/1.1" 200 -
+[2023-08-31 00:37:16,247] 107 root -INFO - Dataframe Gathered
+[2023-08-31 00:37:16,659] 187 werkzeug -INFO - 127.0.0.1 - - [31/Aug/2023 00:37:16] "POST /predict HTTP/1.1" 200 -
+[2023-08-31 00:37:57,342] 107 root -INFO - Dataframe Gathered
+[2023-08-31 00:37:57,456] 187 werkzeug -INFO - 127.0.0.1 - - [31/Aug/2023 00:37:57] "POST /predict HTTP/1.1" 200 -
+[2023-08-31 00:38:07,983] 107 root -INFO - Dataframe Gathered
+[2023-08-31 00:38:07,999] 187 werkzeug -INFO - 127.0.0.1 - - [31/Aug/2023 00:38:07] "POST /predict HTTP/1.1" 200 -
+[2023-08-31 00:38:31,603] 107 root -INFO - Dataframe Gathered
+[2023-08-31 00:38:31,611] 187 werkzeug -INFO - 127.0.0.1 - - [31/Aug/2023 00:38:31] "POST /predict HTTP/1.1" 200 -
+[2023-08-31 00:38:37,280] 107 root -INFO - Dataframe Gathered
+[2023-08-31 00:38:37,301] 187 werkzeug -INFO - 127.0.0.1 - - [31/Aug/2023 00:38:37] "POST /predict HTTP/1.1" 200 -
+[2023-08-31 00:38:44,447] 107 root -INFO - Dataframe Gathered
+[2023-08-31 00:38:44,467] 187 werkzeug -INFO - 127.0.0.1 - - [31/Aug/2023 00:38:44] "POST /predict HTTP/1.1" 200 -
+[2023-08-31 00:38:49,028] 187 werkzeug -INFO - 127.0.0.1 - - [31/Aug/2023 00:38:49] "GET /predict HTTP/1.1" 200 -
+[2023-08-31 00:38:49,063] 187 werkzeug -INFO - 127.0.0.1 - - [31/Aug/2023 00:38:49] "[33mGET /down-arrow.png HTTP/1.1[0m" 404 -
+[2023-08-31 00:38:52,061] 187 werkzeug -INFO - 127.0.0.1 - - [31/Aug/2023 00:38:52] "GET / HTTP/1.1" 200 -
+[2023-08-31 00:38:53,621] 187 werkzeug -INFO - 127.0.0.1 - - [31/Aug/2023 00:38:53] "GET / HTTP/1.1" 200 -
+[2023-08-31 00:38:54,956] 187 werkzeug -INFO - 127.0.0.1 - - [31/Aug/2023 00:38:54] "GET /predict HTTP/1.1" 200 -
+[2023-08-31 00:38:55,000] 187 werkzeug -INFO - 127.0.0.1 - - [31/Aug/2023 00:38:55] "[33mGET /down-arrow.png HTTP/1.1[0m" 404 -
+[2023-08-31 00:39:24,819] 107 root -INFO - Dataframe Gathered
+[2023-08-31 00:39:24,835] 187 werkzeug -INFO - 127.0.0.1 - - [31/Aug/2023 00:39:24] "POST /predict HTTP/1.1" 200 -
+[2023-08-31 00:39:37,403] 187 werkzeug -INFO - 127.0.0.1 - - [31/Aug/2023 00:39:37] "GET /predict HTTP/1.1" 200 -
+[2023-08-31 00:39:40,462] 107 root -INFO - Dataframe Gathered
+[2023-08-31 00:39:40,478] 187 werkzeug -INFO - 127.0.0.1 - - [31/Aug/2023 00:39:40] "POST /predict HTTP/1.1" 200 -

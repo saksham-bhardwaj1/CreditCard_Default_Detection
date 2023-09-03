@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Credit Fault Result</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url('https://www.creatisimo.net/wp-content/uploads/2020/03/mf-bank-credit-card-design2.png'); /* Add your wallpaper image URL */
+      background-size: cover;
+      background-position: center;
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      width: 600px;
+      background-color: rgba(86, 202, 248, 0.9);
+      border-radius: 5px;
+      padding: 20px;
+      box-shadow: 0 2px 5px #be6322e6;
+      text-align: center;
+    }
+
+    /* h1 {
+      margin-top: 0;
+      color: #07A4F7;
+    } */
+
+    h2 {
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    p {
+      color: #0e0c0c;
+      line-height: 1.5;
+    }
+
+    ul {
+      list-style-type: disc;
+      margin-left: 20px;
+      color: #0f1011;
+    }
+
+    a {
+      /* display: inline-block; */
+      background-color: #07A4F7;
+      color: #fff;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    a:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>{{ prediction_result }}</h1>
+    <!-- <h2>Improve Your Credit Score</h2> -->
+    <p>To improve your credit score, consider the following tips:</p>
+    <ul>
+      <li>Pay bills on time</li>
+      <li>Reduce credit card balances</li>
+      <li>Don't close old credit accounts</li>
+      <li>Check your credit report regularly</li>
+    </ul>
+  </div>
+</body>
+</html>

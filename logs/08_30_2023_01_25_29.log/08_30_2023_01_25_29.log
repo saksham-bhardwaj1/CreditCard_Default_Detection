@@ -1,0 +1,24 @@
+[2023-08-30 01:25:48,613] 22 root -INFO - Data Ingestion method starts
+[2023-08-30 01:25:48,805] 26 root -INFO - Dataset read as pandas Dataframe
+[2023-08-30 01:25:50,115] 59 root -INFO - Train test split
+[2023-08-30 01:25:51,016] 64 root -INFO - Ingestion of data is completed
+[2023-08-30 01:25:51,181] 72 root -INFO - Read train and test data completed
+[2023-08-30 01:25:51,229] 73 root -INFO - Train Dataframe Head :
+      ID  LIMIT_BAL     SEX        EDUCATION MARRIAGE  AGE  PAY_1  PAY_2  PAY_3  PAY_4  PAY_5  PAY_6  BILL_AMT1  BILL_AMT2  BILL_AMT3  BILL_AMT4  BILL_AMT5  BILL_AMT6  PAY_AMT1  PAY_AMT2  PAY_AMT3  PAY_AMT4  PAY_AMT5  PAY_AMT6  Default_Prediction
+0  28466   240000.0  female  graduate school  Married   40      0      0      0      0      0      0        0.0        0.0        0.0        0.0        0.0        0.0       0.0       0.0       0.0       0.0       0.0       0.0                   1
+1  27623    50000.0  female  graduate school   Single   23      0      0      0      0      0      0     3430.0     2478.0     2299.0     4800.0     9810.0      660.0    2548.0    2321.0    4800.0    9810.0     660.0    2980.0                   0
+2  28377    50000.0  female       university  Married   36      2      2      2      2      0      0    46203.0    45159.0    49125.0    47956.0    43578.0    35126.0       0.0    4700.0       0.0    2004.0    3500.0       0.0                   0
+3  10918   200000.0  female      high school  Married   54      6      5      4      3      2      2   110185.0   107665.0   104686.0   102549.0   101400.0        0.0       0.0       0.0       0.0       0.0       0.0       0.0                   0
+4  27235   240000.0    male  graduate school  Married   35      0      0      0      0      0      0     2024.0     2007.0    21790.0    17102.0    13367.0    22659.0    2017.0   21817.0    1120.0   13434.0   22772.0   22820.0                   0
+[2023-08-30 01:25:51,243] 74 root -INFO - Test Dataframe Head :
+      ID  LIMIT_BAL     SEX        EDUCATION MARRIAGE  AGE  PAY_1  PAY_2  PAY_3  PAY_4  PAY_5  PAY_6  BILL_AMT1  BILL_AMT2  BILL_AMT3  BILL_AMT4  BILL_AMT5  BILL_AMT6  PAY_AMT1  PAY_AMT2  PAY_AMT3  PAY_AMT4  PAY_AMT5  PAY_AMT6  Default_Prediction
+0  28466   240000.0  female  graduate school  Married   40      0      0      0      0      0      0        0.0        0.0        0.0        0.0        0.0        0.0       0.0       0.0       0.0       0.0       0.0       0.0                   1
+1  27623    50000.0  female  graduate school   Single   23      0      0      0      0      0      0     3430.0     2478.0     2299.0     4800.0     9810.0      660.0    2548.0    2321.0    4800.0    9810.0     660.0    2980.0                   0
+2  28377    50000.0  female       university  Married   36      2      2      2      2      0      0    46203.0    45159.0    49125.0    47956.0    43578.0    35126.0       0.0    4700.0       0.0    2004.0    3500.0       0.0                   0
+3  10918   200000.0  female      high school  Married   54      6      5      4      3      2      2   110185.0   107665.0   104686.0   102549.0   101400.0        0.0       0.0       0.0       0.0       0.0       0.0       0.0                   0
+4  27235   240000.0    male  graduate school  Married   35      0      0      0      0      0      0     2024.0     2007.0    21790.0    17102.0    13367.0    22659.0    2017.0   21817.0    1120.0   13434.0   22772.0   22820.0                   0
+[2023-08-30 01:25:51,243] 75 root -INFO - Obtaining preprocessing object
+[2023-08-30 01:25:51,243] 29 root -INFO - Data Transformation initiated
+[2023-08-30 01:25:51,243] 38 root -INFO - Pipeline Initiated
+[2023-08-30 01:25:51,485] 93 root -INFO - Applying preprocessing object on training and testing datasets
+[2023-08-30 01:25:51,485] 111 root -INFO - Exception occured in the initiate_datatransformation

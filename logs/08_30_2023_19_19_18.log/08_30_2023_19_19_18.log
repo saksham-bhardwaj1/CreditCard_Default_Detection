@@ -1,0 +1,11 @@
+[2023-08-30 19:19:20,714] 187 werkzeug -WARNING -  * Debugger is active!
+[2023-08-30 19:19:20,730] 187 werkzeug -INFO -  * Debugger PIN: 658-853-333
+[2023-08-30 19:19:25,153] 187 werkzeug -INFO - 127.0.0.1 - - [30/Aug/2023 19:19:25] "GET /predict HTTP/1.1" 200 -
+[2023-08-30 19:19:25,185] 187 werkzeug -INFO - 127.0.0.1 - - [30/Aug/2023 19:19:25] "[33mGET /down-arrow.png HTTP/1.1[0m" 404 -
+[2023-08-30 19:20:30,761] 107 root -INFO - Dataframe Gathered
+[2023-08-30 19:20:31,831] 187 werkzeug -INFO - 127.0.0.1 - - [30/Aug/2023 19:20:31] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[2023-08-30 19:20:32,015] 187 werkzeug -INFO - 127.0.0.1 - - [30/Aug/2023 19:20:32] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-30 19:20:32,015] 187 werkzeug -INFO - 127.0.0.1 - - [30/Aug/2023 19:20:32] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-30 19:20:32,047] 187 werkzeug -INFO - 127.0.0.1 - - [30/Aug/2023 19:20:32] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-30 19:20:32,063] 187 werkzeug -INFO - 127.0.0.1 - - [30/Aug/2023 19:20:32] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-30 19:45:46,404] 187 werkzeug -INFO -  * Detected change in 'd:\\data_science_(pw)\\projects\\credit_card_default_detection\\application.py', reloading

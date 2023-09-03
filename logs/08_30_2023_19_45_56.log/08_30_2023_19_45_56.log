@@ -1,0 +1,27 @@
+[2023-08-30 19:46:04,411] 187 werkzeug -WARNING -  * Debugger is active!
+[2023-08-30 19:46:04,443] 187 werkzeug -INFO -  * Debugger PIN: 658-853-333
+[2023-08-30 19:46:10,243] 187 werkzeug -INFO - 127.0.0.1 - - [30/Aug/2023 19:46:10] "[33mGET /down-arrow.png HTTP/1.1[0m" 404 -
+[2023-08-30 19:46:10,307] 107 root -INFO - Dataframe Gathered
+[2023-08-30 19:46:10,732] 107 root -INFO - Dataframe Gathered
+[2023-08-30 19:46:11,350] 187 werkzeug -INFO - 127.0.0.1 - - [30/Aug/2023 19:46:11] "POST /predict HTTP/1.1" 200 -
+[2023-08-30 19:46:11,366] 187 werkzeug -INFO - 127.0.0.1 - - [30/Aug/2023 19:46:11] "POST /predict HTTP/1.1" 200 -
+[2023-08-30 19:46:11,390] 187 werkzeug -INFO - 127.0.0.1 - - [30/Aug/2023 19:46:11] "[33mGET /down-arrow.png HTTP/1.1[0m" 404 -
+[2023-08-30 19:46:16,281] 107 root -INFO - Dataframe Gathered
+[2023-08-30 19:46:16,297] 187 werkzeug -INFO - 127.0.0.1 - - [30/Aug/2023 19:46:16] "POST /predict HTTP/1.1" 200 -
+[2023-08-30 19:46:16,321] 187 werkzeug -INFO - 127.0.0.1 - - [30/Aug/2023 19:46:16] "[33mGET /down-arrow.png HTTP/1.1[0m" 404 -
+[2023-08-30 19:47:24,897] 107 root -INFO - Dataframe Gathered
+[2023-08-30 19:47:24,913] 187 werkzeug -INFO - 127.0.0.1 - - [30/Aug/2023 19:47:24] "POST /predict HTTP/1.1" 200 -
+[2023-08-30 19:47:24,945] 187 werkzeug -INFO - 127.0.0.1 - - [30/Aug/2023 19:47:24] "[33mGET /down-arrow.png HTTP/1.1[0m" 404 -
+[2023-08-31 00:18:53,228] 107 root -INFO - Dataframe Gathered
+[2023-08-31 00:18:53,595] 187 werkzeug -INFO - 127.0.0.1 - - [31/Aug/2023 00:18:53] "POST /predict HTTP/1.1" 200 -
+[2023-08-31 00:18:53,756] 187 werkzeug -INFO - 127.0.0.1 - - [31/Aug/2023 00:18:53] "[33mGET /down-arrow.png HTTP/1.1[0m" 404 -
+[2023-08-31 00:20:12,714] 107 root -INFO - Dataframe Gathered
+[2023-08-31 00:20:13,076] 187 werkzeug -INFO - 127.0.0.1 - - [31/Aug/2023 00:20:13] "POST /predict HTTP/1.1" 200 -
+[2023-08-31 00:20:13,099] 187 werkzeug -INFO - 127.0.0.1 - - [31/Aug/2023 00:20:13] "[33mGET /down-arrow.png HTTP/1.1[0m" 404 -
+[2023-08-31 00:24:06,414] 107 root -INFO - Dataframe Gathered
+[2023-08-31 00:24:06,472] 187 werkzeug -INFO - 127.0.0.1 - - [31/Aug/2023 00:24:06] "POST /predict HTTP/1.1" 200 -
+[2023-08-31 00:24:06,495] 187 werkzeug -INFO - 127.0.0.1 - - [31/Aug/2023 00:24:06] "[33mGET /down-arrow.png HTTP/1.1[0m" 404 -
+[2023-08-31 00:27:41,811] 107 root -INFO - Dataframe Gathered
+[2023-08-31 00:27:41,825] 187 werkzeug -INFO - 127.0.0.1 - - [31/Aug/2023 00:27:41] "POST /predict HTTP/1.1" 200 -
+[2023-08-31 00:27:41,853] 187 werkzeug -INFO - 127.0.0.1 - - [31/Aug/2023 00:27:41] "[33mGET /down-arrow.png HTTP/1.1[0m" 404 -
+[2023-08-31 00:32:22,703] 187 werkzeug -INFO -  * Detected change in 'D:\\Data_Science_(PW)\\Projects\\Credit_Card_Default_Detection\\application.py', reloading

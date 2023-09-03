@@ -1,0 +1,37 @@
+[2023-08-30 16:23:26,160] 187 werkzeug -WARNING -  * Debugger is active!
+[2023-08-30 16:23:26,270] 187 werkzeug -INFO -  * Debugger PIN: 658-853-333
+[2023-08-30 16:23:32,551] 187 werkzeug -INFO - 127.0.0.1 - - [30/Aug/2023 16:23:32] "GET / HTTP/1.1" 200 -
+[2023-08-30 16:23:36,275] 187 werkzeug -INFO - 127.0.0.1 - - [30/Aug/2023 16:23:36] "GET / HTTP/1.1" 200 -
+[2023-08-30 16:24:03,633] 187 werkzeug -INFO - 127.0.0.1 - - [30/Aug/2023 16:24:03] "GET / HTTP/1.1" 200 -
+[2023-08-30 16:24:06,116] 187 werkzeug -INFO - 127.0.0.1 - - [30/Aug/2023 16:24:06] "GET /predict HTTP/1.1" 200 -
+[2023-08-30 16:24:06,171] 187 werkzeug -INFO - 127.0.0.1 - - [30/Aug/2023 16:24:06] "[33mGET /down-arrow.png HTTP/1.1[0m" 404 -
+[2023-08-30 16:24:40,935] 187 werkzeug -INFO - 127.0.0.1 - - [30/Aug/2023 16:24:40] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[2023-08-30 16:24:40,964] 187 werkzeug -INFO - 127.0.0.1 - - [30/Aug/2023 16:24:40] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-30 16:24:40,965] 187 werkzeug -INFO - 127.0.0.1 - - [30/Aug/2023 16:24:40] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-30 16:24:41,038] 187 werkzeug -INFO - 127.0.0.1 - - [30/Aug/2023 16:24:41] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-30 16:24:41,066] 187 werkzeug -INFO - 127.0.0.1 - - [30/Aug/2023 16:24:41] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-30 16:24:49,521] 187 werkzeug -INFO - 127.0.0.1 - - [30/Aug/2023 16:24:49] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[2023-08-30 16:24:49,571] 187 werkzeug -INFO - 127.0.0.1 - - [30/Aug/2023 16:24:49] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-30 16:24:49,576] 187 werkzeug -INFO - 127.0.0.1 - - [30/Aug/2023 16:24:49] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-30 16:24:49,633] 187 werkzeug -INFO - 127.0.0.1 - - [30/Aug/2023 16:24:49] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-30 16:24:49,647] 187 werkzeug -INFO - 127.0.0.1 - - [30/Aug/2023 16:24:49] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-30 16:25:20,424] 187 werkzeug -INFO - 127.0.0.1 - - [30/Aug/2023 16:25:20] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[2023-08-30 16:25:20,464] 187 werkzeug -INFO - 127.0.0.1 - - [30/Aug/2023 16:25:20] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-30 16:25:20,470] 187 werkzeug -INFO - 127.0.0.1 - - [30/Aug/2023 16:25:20] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-30 16:25:20,503] 187 werkzeug -INFO - 127.0.0.1 - - [30/Aug/2023 16:25:20] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-30 16:25:20,520] 187 werkzeug -INFO - 127.0.0.1 - - [30/Aug/2023 16:25:20] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-30 16:27:11,009] 187 werkzeug -INFO - 127.0.0.1 - - [30/Aug/2023 16:27:11] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[2023-08-30 16:27:11,031] 187 werkzeug -INFO - 127.0.0.1 - - [30/Aug/2023 16:27:11] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-30 16:27:11,056] 187 werkzeug -INFO - 127.0.0.1 - - [30/Aug/2023 16:27:11] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-30 16:27:11,098] 187 werkzeug -INFO - 127.0.0.1 - - [30/Aug/2023 16:27:11] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-30 16:27:11,114] 187 werkzeug -INFO - 127.0.0.1 - - [30/Aug/2023 16:27:11] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-30 18:35:59,096] 187 werkzeug -INFO - 127.0.0.1 - - [30/Aug/2023 18:35:59] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[2023-08-30 18:35:59,289] 187 werkzeug -INFO - 127.0.0.1 - - [30/Aug/2023 18:35:59] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-30 18:35:59,289] 187 werkzeug -INFO - 127.0.0.1 - - [30/Aug/2023 18:35:59] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-30 18:35:59,369] 187 werkzeug -INFO - 127.0.0.1 - - [30/Aug/2023 18:35:59] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-30 18:35:59,427] 187 werkzeug -INFO - 127.0.0.1 - - [30/Aug/2023 18:35:59] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-30 18:38:34,618] 187 werkzeug -INFO - 127.0.0.1 - - [30/Aug/2023 18:38:34] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[2023-08-30 18:38:34,674] 187 werkzeug -INFO - 127.0.0.1 - - [30/Aug/2023 18:38:34] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-30 18:38:34,690] 187 werkzeug -INFO - 127.0.0.1 - - [30/Aug/2023 18:38:34] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-30 18:38:34,706] 187 werkzeug -INFO - 127.0.0.1 - - [30/Aug/2023 18:38:34] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-30 18:38:34,722] 187 werkzeug -INFO - 127.0.0.1 - - [30/Aug/2023 18:38:34] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -

@@ -1,0 +1,27 @@
+[2023-08-30 01:57:29,476] 22 root -INFO - Data Ingestion method starts
+[2023-08-30 01:57:29,623] 26 root -INFO - Dataset read as pandas Dataframe
+[2023-08-30 01:57:30,301] 59 root -INFO - Train test split
+[2023-08-30 01:57:31,043] 64 root -INFO - Ingestion of data is completed
+[2023-08-30 01:57:31,212] 72 root -INFO - Read train and test data completed
+[2023-08-30 01:57:31,244] 73 root -INFO - Train Dataframe Head :
+      ID  LIMIT_BAL     SEX        EDUCATION MARRIAGE  AGE  PAY_1  PAY_2  PAY_3  PAY_4  PAY_5  PAY_6  BILL_AMT1  BILL_AMT2  BILL_AMT3  BILL_AMT4  BILL_AMT5  BILL_AMT6  PAY_AMT1  PAY_AMT2  PAY_AMT3  PAY_AMT4  PAY_AMT5  PAY_AMT6  Default_Prediction
+0  28466   240000.0  female  graduate school  Married   40      0      0      0      0      0      0        0.0        0.0        0.0        0.0        0.0        0.0       0.0       0.0       0.0       0.0       0.0       0.0                   1
+1  27623    50000.0  female  graduate school   Single   23      0      0      0      0      0      0     3430.0     2478.0     2299.0     4800.0     9810.0      660.0    2548.0    2321.0    4800.0    9810.0     660.0    2980.0                   0
+2  28377    50000.0  female       university  Married   36      2      2      2      2      0      0    46203.0    45159.0    49125.0    47956.0    43578.0    35126.0       0.0    4700.0       0.0    2004.0    3500.0       0.0                   0
+3  10918   200000.0  female      high school  Married   54      6      5      4      3      2      2   110185.0   107665.0   104686.0   102549.0   101400.0        0.0       0.0       0.0       0.0       0.0       0.0       0.0                   0
+4  27235   240000.0    male  graduate school  Married   35      0      0      0      0      0      0     2024.0     2007.0    21790.0    17102.0    13367.0    22659.0    2017.0   21817.0    1120.0   13434.0   22772.0   22820.0                   0
+[2023-08-30 01:57:31,259] 74 root -INFO - Test Dataframe Head :
+      ID  LIMIT_BAL     SEX        EDUCATION MARRIAGE  AGE  PAY_1  PAY_2  PAY_3  PAY_4  PAY_5  PAY_6  BILL_AMT1  BILL_AMT2  BILL_AMT3  BILL_AMT4  BILL_AMT5  BILL_AMT6  PAY_AMT1  PAY_AMT2  PAY_AMT3  PAY_AMT4  PAY_AMT5  PAY_AMT6  Default_Prediction
+0  28466   240000.0  female  graduate school  Married   40      0      0      0      0      0      0        0.0        0.0        0.0        0.0        0.0        0.0       0.0       0.0       0.0       0.0       0.0       0.0                   1
+1  27623    50000.0  female  graduate school   Single   23      0      0      0      0      0      0     3430.0     2478.0     2299.0     4800.0     9810.0      660.0    2548.0    2321.0    4800.0    9810.0     660.0    2980.0                   0
+2  28377    50000.0  female       university  Married   36      2      2      2      2      0      0    46203.0    45159.0    49125.0    47956.0    43578.0    35126.0       0.0    4700.0       0.0    2004.0    3500.0       0.0                   0
+3  10918   200000.0  female      high school  Married   54      6      5      4      3      2      2   110185.0   107665.0   104686.0   102549.0   101400.0        0.0       0.0       0.0       0.0       0.0       0.0       0.0                   0
+4  27235   240000.0    male  graduate school  Married   35      0      0      0      0      0      0     2024.0     2007.0    21790.0    17102.0    13367.0    22659.0    2017.0   21817.0    1120.0   13434.0   22772.0   22820.0                   0
+[2023-08-30 01:57:31,259] 75 root -INFO - Obtaining preprocessing object
+[2023-08-30 01:57:31,259] 29 root -INFO - Data Transformation initiated
+[2023-08-30 01:57:31,259] 38 root -INFO - Pipeline Initiated
+[2023-08-30 01:57:31,528] 93 root -INFO - Applying preprocessing object on training and testing datasets
+[2023-08-30 01:57:31,536] 103 root -INFO - Preprocessor pickle is created and saved
+[2023-08-30 01:57:31,540] 29 root -INFO - Splitting Dependent and Independent variables from train and test data
+[2023-08-30 01:58:39,101] 47 root -INFO - Model Report: {'LogisticRegression': 0.8171111111111111, 'DecisionTreeClassifier': 0.7275555555555555, 'GaussianNB': 0.7868888888888889, 'SVC': 0.8181111111111111, 'RandomForestClassifier': 0.8138888888888889, 'GradientBoostingClassifier': 0.8205555555555556}
+[2023-08-30 01:58:39,156] 60 root -INFO - Best Model Found , Model Name : GradientBoostingClassifier, Accuracy : 0.8205555555555556
