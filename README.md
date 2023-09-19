@@ -24,6 +24,7 @@ git clone https://github.com/saksham-bhardwaj1/CreditCard_Default_Detection
 
 ### Step 2- Create a conda environment after opening the repository
 conda create -p venv python==3.8
+
 conda activate venv/
 
 ### Step 3 - Install the requirements
